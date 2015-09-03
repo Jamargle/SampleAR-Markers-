@@ -7,39 +7,57 @@ import edu.dhbw.andar.ARToolkit;
 import edu.dhbw.andar.AndARActivity;
 import edu.dhbw.andar.exceptions.AndARException;
 
+
+/**
+ * This is a sample use of AndARActivity.
+ * Here we initialize some objects for traking their markers and painting boxes over them.
+ *
+ * In Manifest the orientation has to be set to landscape, as needed by AndAR. If you don't include
+ * it in manifest, use setOrientation() in all AndARActivities
+ * @see edu.dhbw.andar.AndARActivity
+ *
+ */
 public class MainActivity extends AndARActivity {
 
-	private ARObject someObject;
-	private ARToolkit artoolkit;
+	private ARToolkit mArtoolkit;
+    private ARObject mObject;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		
 		super.onCreate(savedInstanceState);
-		CustomRenderer renderer = new CustomRenderer();
-		setNonARRenderer(renderer);
-		try {
-			artoolkit = getArtoolkit();
 
+        /**
+         * In CustomRender we have set up lights and whatever nonAR stuff
+         */
+		CustomRenderer renderer = new CustomRenderer();
+        /**
+         * Set a renderer that draws non AR stuff. Optional, may be set to null or omited.
+         * and sets up lighting stuff.
+         */
+		setNonARRenderer(renderer);
+
+		try {
+            mArtoolkit = getArtoolkit();
 			
-			someObject = new CustomObject1
-			("test", "marker_at16.patt", 80.0, new double[]{0,0});
-			artoolkit.registerARObject(someObject);
+			mObject = new CustomObject1("test", "marker_at16.patt", 80.0, new double[]{0,0});
+            mArtoolkit.registerARObject(mObject);
 			
-			someObject = new CustomObject2
-			("test", "marker_peace16.patt", 80.0, new double[]{0,0});
-			artoolkit.registerARObject(someObject);
+			mObject = new CustomObject2("test", "marker_peace16.patt", 80.0, new double[]{0,0});
+            mArtoolkit.registerARObject(mObject);
 			
-			someObject = new CustomObject3
-			("test", "marker_rupee16.patt", 80.0, new double[]{0,0});
-			artoolkit.registerARObject(someObject);
+			mObject = new CustomObject3("test", "marker_rupee16.patt", 80.0, new double[]{0,0});
+            mArtoolkit.registerARObject(mObject);
 			
-			someObject = new CustomObject4
-			("test", "marker_hand16.patt", 80.0, new double[]{0,0});
-			artoolkit.registerARObject(someObject);
+			mObject = new CustomObject4("test", "marker_hand16.patt", 80.0, new double[]{0,0});
+            mArtoolkit.registerARObject(mObject);
 			
-		} catch (AndARException ex){
-			System.out.println("EXCEPTION ANDAR");
-		}		
+		} catch (AndARException ignored){
+		}
+
+        /**
+         * Open the camera and start detecting markers.
+         * note: You must assure that the preview surface already exists!
+         */
 		startPreview();
 	}
 	

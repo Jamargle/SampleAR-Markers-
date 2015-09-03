@@ -10,64 +10,44 @@ import edu.dhbw.andar.util.GraphicsUtil;
 
 public class CustomObject4 extends ARObject {
 
+	private SimpleBox mBox = new SimpleBox();
+	private FloatBuffer mFlash;
+	private FloatBuffer mAmbient;
+	private FloatBuffer mShiny;
+	private FloatBuffer mDiffuse;
 	
-	public CustomObject4(String name, String patternName,
-			double markerWidth, double[] markerCenter) {
+	public CustomObject4(String name, String patternName, double markerWidth, double[] markerCenter) {
 		super(name, patternName, markerWidth, markerCenter);
-		float   mat_ambientf[]     = {1.0f, 0f, 1.0f, 1.0f};
-		float   mat_flashf[]       = {1.0f, 0f, 1.0f, 1.0f};
-		float   mat_diffusef[]       = {1.0f, 0f, 1.0f, 1.0f};
-		float   mat_flash_shinyf[] = {50.0f};
 
-		mat_ambient = GraphicsUtil.makeFloatBuffer(mat_ambientf);
-		mat_flash = GraphicsUtil.makeFloatBuffer(mat_flashf);
-		mat_flash_shiny = GraphicsUtil.makeFloatBuffer(mat_flash_shinyf);
-		mat_diffuse = GraphicsUtil.makeFloatBuffer(mat_diffusef);
-		
-	}
-	public CustomObject4(String name, String patternName,
-			double markerWidth, double[] markerCenter, float[] customColor) {
-		super(name, patternName, markerWidth, markerCenter);
-		float   mat_flash_shinyf[] = {50.0f};
+		float   mat_ambientf[]		= {1.0f, 0f, 1.0f, 1.0f};
+		float   mat_flashf[]		= {1.0f, 0f, 1.0f, 1.0f};
+		float   mat_diffusef[]		= {1.0f, 0f, 1.0f, 1.0f};
+		float   mat_flash_shinyf[]	= {50.0f};
 
-		mat_ambient = GraphicsUtil.makeFloatBuffer(customColor);
-		mat_flash = GraphicsUtil.makeFloatBuffer(customColor);
-		mat_flash_shiny = GraphicsUtil.makeFloatBuffer(mat_flash_shinyf);
-		mat_diffuse = GraphicsUtil.makeFloatBuffer(customColor);
-		
+		mAmbient = GraphicsUtil.makeFloatBuffer(mat_ambientf);
+		mFlash = GraphicsUtil.makeFloatBuffer(mat_flashf);
+		mShiny = GraphicsUtil.makeFloatBuffer(mat_flash_shinyf);
+		mDiffuse = GraphicsUtil.makeFloatBuffer(mat_diffusef);
 	}
-	
-	/**
-	 * Just a box, imported from the AndAR project.
-	 */
-	private SimpleBox box = new SimpleBox();
-	private FloatBuffer mat_flash;
-	private FloatBuffer mat_ambient;
-	private FloatBuffer mat_flash_shiny;
-	private FloatBuffer mat_diffuse;
-	
-	/**
-	 * Everything drawn here will be drawn directly onto the marker,
-	 * as the corresponding translation matrix will already be applied.
-	 */
+
+
 	@Override
 	public final void draw(GL10 gl) {
 		super.draw(gl);
-		
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SPECULAR,mat_flash);
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SHININESS, mat_flash_shiny);	
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_DIFFUSE, mat_diffuse);	
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_AMBIENT, mat_ambient);
 
-	    //draw cube
-	    gl.glColor4f(1.0f, 0f, 1.0f, 1.0f);
-	    gl.glTranslatef( 0.0f, 0.0f, 12.5f );
-	    
-	    //draw the box
-	    box.draw(gl);
+		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SPECULAR,mFlash);
+		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SHININESS, mShiny);
+		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_DIFFUSE, mDiffuse);
+		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_AMBIENT, mAmbient);
+
+		gl.glColor4f(1.0f, 0, 1.0f, 1.0f);
+		gl.glTranslatef( 0.0f, 0.0f, 12.5f );
+
+		mBox.draw(gl);
 	}
+
+
 	@Override
 	public void init(GL10 gl) {
-		
 	}
 }

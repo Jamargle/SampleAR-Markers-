@@ -7,6 +7,11 @@ import javax.microedition.khronos.opengles.GL10;
 import edu.dhbw.andar.interfaces.OpenGLRenderer;
 import edu.dhbw.andar.util.GraphicsUtil;
 
+
+/**
+ * Class for setting up the OpenGL enviroment. This class allow us to render objects on a
+ * background thread
+ */
 public class CustomRenderer implements OpenGLRenderer {
 
 	
@@ -19,16 +24,23 @@ public class CustomRenderer implements OpenGLRenderer {
 	private FloatBuffer specularLightBuffer1 = GraphicsUtil.makeFloatBuffer(specularlight1);
 	private FloatBuffer diffuseLightBuffer1 = GraphicsUtil.makeFloatBuffer(diffuselight1);
 	private FloatBuffer ambientLightBuffer1 = GraphicsUtil.makeFloatBuffer(ambientlight1);
-	
 
+
+    /**
+     * Draw stuff in this method that has nothing to do with Augmented Reality.
+     * Will be invoked at the end of each render phase.
+     * @param gl
+     */
 	public final void draw(GL10 gl) {
 	}
 
 
 	/**
-	 * Directly called before each object is drawn. Used to setup lighting and
-	 * other OpenGL specific things.
-	 */
+     * Setup the OpenGL environment. This method will be called just before
+     * each AR object is drawn. This method may be used to setup lighting,
+     * and other things common to all Augmented Reality objects.
+     * @param gl
+     */
 	public final void setupEnv(GL10 gl) {
 		gl.glEnable(GL10.GL_LIGHTING);
 		gl.glLightfv(GL10.GL_LIGHT1, GL10.GL_AMBIENT, ambientLightBuffer1);
@@ -42,8 +54,10 @@ public class CustomRenderer implements OpenGLRenderer {
 	}
 	
 	/**
-	 * Called once when the OpenGL Surface was created.
-	 */
+     * Called once, when the OpenGL Surface was created. Used to do some general
+     * OpenGL specific initialization.
+     * @param gl
+     */
 	public final void initGL(GL10 gl) {
 		gl.glDisable(GL10.GL_COLOR_MATERIAL);
 		gl.glEnable(GL10.GL_CULL_FACE);
