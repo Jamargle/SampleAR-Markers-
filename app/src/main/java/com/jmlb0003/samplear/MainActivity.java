@@ -27,7 +27,7 @@ public class MainActivity extends AndARActivity {
 		super.onCreate(savedInstanceState);
 
         /**
-         * In CustomRender we have set up lights and whatever nonAR stuff
+         * In CustomRender we have set up lights and anything else nonAR-stuff
          */
 		CustomRenderer renderer = new CustomRenderer();
         /**
