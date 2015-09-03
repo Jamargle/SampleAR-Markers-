@@ -10,45 +10,44 @@ import edu.dhbw.andar.util.GraphicsUtil;
 
 public class CustomObject1 extends ARObject {
 
-	private SimpleBox mBox = new SimpleBox();
-	private FloatBuffer mFlash;
-	private FloatBuffer mAmbient;
-	private FloatBuffer mShiny;
-	private FloatBuffer mDiffuse;
+    private SimpleBox mBox = new SimpleBox();
+    private FloatBuffer mFlash;
+    private FloatBuffer mAmbient;
+    private FloatBuffer mShiny;
+    private FloatBuffer mDiffuse;
 
-	
-	public CustomObject1(String name, String patternName, double markerWidth, double[] markerCenter) {
-		super(name, patternName, markerWidth, markerCenter);
 
-		float   mat_ambientf[]		= {0f, 1.0f, 0f, 1.0f};
-		float   mat_flashf[]		= {0f, 1.0f, 0f, 1.0f};
-		float   mat_diffusef[]		= {0f, 1.0f, 0f, 1.0f};
-		float   mat_flash_shinyf[]	= {50.0f};
+    public CustomObject1(String name, String patternName, double markerWidth, double[] markerCenter) {
+        super(name, patternName, markerWidth, markerCenter);
 
-		mAmbient = GraphicsUtil.makeFloatBuffer(mat_ambientf);
-		mFlash = GraphicsUtil.makeFloatBuffer(mat_flashf);
-		mShiny = GraphicsUtil.makeFloatBuffer(mat_flash_shinyf);
+        float mat_ambientf[] = {0f, 1.0f, 0f, 1.0f};
+        float mat_flashf[] = {0f, 1.0f, 0f, 1.0f};
+        float mat_diffusef[] = {0f, 1.0f, 0f, 1.0f};
+        float mat_flash_shinyf[] = {50.0f};
+
+        mAmbient = GraphicsUtil.makeFloatBuffer(mat_ambientf);
+        mFlash = GraphicsUtil.makeFloatBuffer(mat_flashf);
+        mShiny = GraphicsUtil.makeFloatBuffer(mat_flash_shinyf);
         mDiffuse = GraphicsUtil.makeFloatBuffer(mat_diffusef);
     }
-	
 
 
-	@Override
-	public final void draw(GL10 gl) {
-		super.draw(gl);
-		
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SPECULAR,mFlash);
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SHININESS, mShiny);
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_DIFFUSE, mDiffuse);
-		gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_AMBIENT, mAmbient);
+    @Override
+    public final void draw(GL10 gl) {
+        super.draw(gl);
 
-	    gl.glColor4f(0, 1.0f, 0, 1.0f);
-	    gl.glTranslatef( 0.0f, 0.0f, 12.5f );
-	    
-	    mBox.draw(gl);
-	}
+        gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SPECULAR, mFlash);
+        gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_SHININESS, mShiny);
+        gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_DIFFUSE, mDiffuse);
+        gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_AMBIENT, mAmbient);
 
-	@Override
-	public void init(GL10 gl) {
-	}
+        gl.glColor4f(0, 1.0f, 0, 1.0f);
+        gl.glTranslatef(0.0f, 0.0f, 12.5f);
+
+        mBox.draw(gl);
+    }
+
+    @Override
+    public void init(GL10 gl) {
+    }
 }
