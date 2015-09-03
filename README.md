@@ -10,7 +10,7 @@ This is simple sample Augmented Reality application with [AndAR Library](https:/
 * Allow installation of non-Market apps in Settings > Security
 * Put this file into your Android device.
 * Search app-debug.apk in your device and install it.
-* Launch SampleAR(Markers) and focus your device device to markers in any pdf file of this [folder](https://github.com/Jamargle/SampleAR-Markers-/tree/master/app/src/main/assets).
+* Launch SampleAR(Markers) and focus your device to markers in any pdf file of this [folder](https://github.com/Jamargle/SampleAR-Markers-/tree/master/app/src/main/assets).
 
 ####For using a new marker:
 * Go to [Tarotaro blog](http://flash.tarotaro.org/blog/2009/07/12/mgo2/) and follow instructions from "How to use" section.
