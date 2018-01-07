@@ -4,10 +4,14 @@ ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifes
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c521d9a6e31fb61361a452257484e682\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c7887765a20adf9a6fb5715273e84538\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7e6eda27182d89b90ffeee51ec22dfcd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
@@ -27,14 +31,6 @@ INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidMani
 		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:2:5-63
 application
 ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:5:5-22:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c521d9a6e31fb61361a452257484e682\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c521d9a6e31fb61361a452257484e682\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c7887765a20adf9a6fb5715273e84538\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c7887765a20adf9a6fb5715273e84538\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7e6eda27182d89b90ffeee51ec22dfcd\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7e6eda27182d89b90ffeee51ec22dfcd\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:7:9-41
 	android:icon
@@ -85,18 +81,24 @@ uses-sdk
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c521d9a6e31fb61361a452257484e682\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\c521d9a6e31fb61361a452257484e682\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c7887765a20adf9a6fb5715273e84538\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\c7887765a20adf9a6fb5715273e84538\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7e6eda27182d89b90ffeee51ec22dfcd\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7e6eda27182d89b90ffeee51ec22dfcd\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\a9783dc0fe66c72ecaebfc11dd90303a\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
