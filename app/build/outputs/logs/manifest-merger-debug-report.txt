@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+	package
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:1:1-28:12
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:2:5-63
+application
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:5:5-22:19
+	android:label
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.jmlb0003.samplear.MainActivity
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:11:9-21:20
+	android:screenOrientation
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:15:13-50
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:14:13-45
+	android:label
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:12:13-45
+	android:noHistory
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:19:27-74
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:24:25-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:25:25-81
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:26:25-63
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml:27:25-73
+uses-sdk
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\70b5352fe8251a4f9d66a48ae2970098\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\70f40fbba39978ef1dc0d21a611edf37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f866fe79e14218c33e0161d6c3e3a5d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\364266eb09fdff40d690a3efd5c7cd5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7bd013cd5f4452baf5d82a5a50e0a025\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fbaf60c95bba817c6e31263066f6a3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\8b857c7d4dfa07a90becb2e60623dd0d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Jose\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\c8ee6de8f748a7faf34cb142d4803da6\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jose\Documents\SampleAR-Markers-\app\src\main\AndroidManifest.xml
